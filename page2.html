@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html>
 
@@ -9,9 +10,13 @@
   <title>Happy Birthday&#9829;</title>
   <meta name="description" content="Happy Birthday Proma">
   <meta name="viewport" content="width=device-width">
-  <meta name="theme-color" content="#FFB7C5" >
+  <meta name="theme-color" content="#FF80AA" >
   <style>
-    h1{
+
+html {
+                scroll-behavior: smooth;
+            }
+            h1{
       text-align: center;
       font-family: sans-serif;
       font-size:25px;
@@ -22,7 +27,7 @@
 
     }
 
-    p{
+    .pip{
       margin-top: 20px;
       margin-left:18px;
       margin-right:18px;
@@ -39,6 +44,7 @@
 	width: 100%;
 	height: calc(100%);
     margin-top: 30px;
+    margin-bottom:100px;
 	
   }
   
@@ -51,7 +57,7 @@
 	text-transform: uppercase;
 	padding: 20px 40px;
 	border-radius: 8px;
-	background-image: linear-gradient(to right, #ff8a00, #da1b60, #ff8a00);
+	background-image: linear-gradient(to right, #5687e0, #da1b60, #ff8a00);
 	background-size: 165%;
 	background-position: left center;
 	transition: 0.4s;
@@ -66,31 +72,63 @@
     margin-bottom:20px;
   
   }
+p{
+  margin-left:18px;
+  margin-right:18px;
+}
   </style>
+
+<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
 </head>
-<body style="background-color:#FFB7C5 ">
+<body style="background-color:#FF80AA ">
 
 <h1>Happy Birthday<br>Dear<br>Fatematus Sadia Proma</h1>
 
-<p>Velit adipisicing aute ad enim irure qui aute
-   ipsum non id consequat cupidatat. Voluptate aliqua 
-   duis enim laborum quis ut sit aliqua ea magna sint elit.
-    Consectetur eu laborum dolor nulla ut sunt velit ullamco 
-    excepteur minim culpa id mollit reprehenderit. Nulla sunt est 
-    commodo ut tempor excepteur labore consequat elit exercitation 
-    aliquip in pariatur. Enim culpa irure duis nisi pariatur tempor aliqua 
-    culpa mollit non non. Irure aliqua mollit officia dolor in mollit.(I will write here later)</p>
+<div class="pip">(Now i am focusing on devolopment part.i will write here later.
+  i love coding.its so much fun.actully i wanna fill this text so i am writing
+  .i am adding a new feature.
+  that is animation on scrolling.
+</div>
+
 
 <center>
-<img src="proma.jpg" width="90%"
-height="90%"></center>
+
+  <div data-aos="zoom-in" data-aos-duration="900">
+<img src="proma.jpg" width="70%"
+height="70%">
+</div>
+</center>
+<center><p data-aos="fade-right" data-aos-duration="600">Stay Happy!</p></center>
+<br>
 
 
+
+
+<center><p data-aos="fade-left" data-aos-duration="600"></p></center><br>
+<center>
+
+
+
+
+<p data-aos="fade-left" data-aos-duration="600" >Never forget your school friends,will u?</p></center>
+<br>
+
+
+<div data-aos="zoom-out-up" data-aos-duration="700">
 <div class="wrapper">
   <a href="page3.html" class="grButton">
     Click Here!
   </a>
-</div>
+</div></div>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+
+
+  AOS.init();
+
+  </script>
 </body>
 
 
